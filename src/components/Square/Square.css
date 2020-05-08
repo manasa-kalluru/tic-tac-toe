@@ -1,0 +1,22 @@
+.Square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 60px;
+    height: 60px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0px;
+    text-align: center;
+    width: 60px;
+}
+
+.Square:focus {
+    outline: none;
+}
+
+.kbd-navigation .Square:focus {
+    background: #ddd;
+}
